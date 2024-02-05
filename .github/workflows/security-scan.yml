@@ -20,7 +20,7 @@ jobs:
           python-version: "3.8"
 
       - name: Install Python dependencies
-        run: |
+        run: 
           pip install flake8 bandit
 
       - name: Run Bandit for security issues
